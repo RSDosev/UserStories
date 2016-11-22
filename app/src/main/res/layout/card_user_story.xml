@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/card_margin"
+    android:layout_marginLeft="@dimen/card_margin"
+    android:layout_marginRight="@dimen/card_margin"
+    android:layout_marginTop="@dimen/card_margin"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="10dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:contentPaddingBottom="@dimen/card_padding"
+    card_view:contentPaddingLeft="@dimen/card_padding"
+    card_view:contentPaddingRight="@dimen/card_padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <org.apmem.tools.layouts.FlowLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="0dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="32dp">
+
+            <TextView
+                android:id="@+id/textViewAs"
+                style="@style/UserStoryWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As" />
+
+            <EditText
+                android:id="@+id/editTextWho"
+                style="@style/UserStoryWord"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="who" />
+
+            <TextView
+                android:id="@+id/textViewIWant"
+                style="@style/UserStoryWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I want" />
+
+            <EditText
+                android:id="@+id/editTextWhat"
+                style="@style/UserStoryWord"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="what" />
+
+            <TextView
+                android:id="@+id/textViewSoThat"
+                style="@style/UserStoryWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="so that" />
+
+            <EditText
+                android:id="@+id/editTextWhy"
+                style="@style/UserStoryWord"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:hint="why" />
+        </org.apmem.tools.layouts.FlowLayout>
+
+        <ImageButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="34dp"
+            android:layout_marginRight="34dp"
+            android:layout_toLeftOf="@+id/buttonEditSave"
+            android:layout_toStartOf="@+id/buttonEditSave"
+            android:background="@android:drawable/ic_menu_delete"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/buttonEditSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

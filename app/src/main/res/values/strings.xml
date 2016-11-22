@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UserStories</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_userstory_list">UserStories</string>
+    <string name="title_userstory_detail">UserStory Detail</string>
+    <string name="title_projects_list">Projects</string>
+    <string name="title_login_screen">Login</string>
+    <string name="fragment_title_new_project">New project</string>
+    <string name="fragment_message_new_project">Enter the name for your new Project</string>
+    <string name="fragment_title_edit_project">Edit project</string>
+    <string name="fragment_message_edit_project">Change the name of the project</string>
+    <string name="fragment_pos_button_new_project">CREATE</string>
+    <string name="fragment_pos_button_edit_project">EDIT</string>
+    <string name="fragment_dialog_negative_button">CANCEL</string>
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="pref_key_last_project_id">pref_key_last_project_id</string>
+    <string name="pref_key_last_userstory_id">pref_key_last_userstory_id</string>
+    <string name="action_syncing">Syncing</string>
+    <string name="pref_key_local_data_synced">pref_local_data_synced</string>
+    <string name="pref_key_deleted_unsynced_project_ids">pref_deleted_unsynced_project_ids</string>
+    <string name="pref_key_updated_unsynced_project_ids">pref_updated_unsynced_project_ids</string>
+    <string name="pref_key_deleted_unsynced_userstory_ids">pref_deleted_unsynced_userstory_ids</string>
+    <string name="pref_key_updated_unsynced_userstory_ids">pref_updated_unsynced_userstory_ids</string>
+</resources>
